@@ -2,7 +2,7 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Unlicense License][license-shield]][license-url]
-[![Last Commit](https://img.shields.io/github/last-commit/kzi-nastava/iss-project-event-planner-siit-2024-team-13?branch=main&style=for-the-badge)](https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/anasinik/eventorium-backend?branch=main&style=for-the-badge)](https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13/commits/main)
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13/issues/new?labels=bug">Report Bug</a>
+    <a href="https://github.com/anasinik/eventorium-backend/issues/new?labels=bug">Report Bug</a>
   </p>
 </div>
 
@@ -36,8 +36,7 @@
   </ol>
 </details>
 
-
-##  📋 About The Project
+## 📋 About The Project
 
 Eventorium is a web API for event planning, built with Java and Spring Boot. It enables users to efficiently organize and manage events such as weddings, corporate gatherings, birthday parties, and more. This is the backend application for the Eventorium platform. The project follows a package-by-feature structure and includes comprehensive documentation, testing, and integration tools.
 
@@ -49,13 +48,13 @@ Happy planning with Eventorium! 🎉
 
 This project is built using the following core technologies:
 
-  [![Java][Java-img]][Java-url]
+[![Java][Java-img]][Java-url]
 
-  [![Spring Boot][SpringBoot-img]][SpringBoot-url]
+[![Spring Boot][SpringBoot-img]][SpringBoot-url]
 
-  [![Maven][Maven-img]][Maven-url]
-  
-  [![PostgreSQL][PostgreSQL-img]][PostgreSQL-url]
+[![Maven][Maven-img]][Maven-url]
+
+[![PostgreSQL][PostgreSQL-img]][PostgreSQL-url]
 
 </br>
 
@@ -67,29 +66,30 @@ Follow the steps below to set up and run the project locally.
 
 1. 🔁 Clone the repository
 
-    ```sh
-    git clone https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13.git
-    cd eventorium
-    ```
+   ```sh
+   git clone https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13.git
+   cd eventorium-backend
+   ```
 
 2. ⚙️ Update configuration
 
-    Open the `src/main/resources/application.properties` file and update the necessary values such as:
-    - Database connection
-    - Mail credentials
-    - Any other environment-specific settings
+   Open the `src/main/resources/application.properties` file and update the necessary values such as:
+
+   - Database connection
+   - Mail credentials
+   - Any other environment-specific settings
 
 3. 📦 Build the project
 
-    ```sh
-    ./mvnw clean install
-    ```
+   ```sh
+   ./mvnw clean install
+   ```
 
 4. ▶️ Run the application
 
-    ```sh
-    ./mvnw spring-boot:run
-    ```
+   ```sh
+   ./mvnw spring-boot:run
+   ```
 
 The application will start on:
 📍 **http://localhost:8080**
@@ -110,11 +110,11 @@ A fully documented REST API is provided using _Springdoc OpenAPI_, allowing you 
 SonarQube is available for static code analysis.
 
 ▶️ Start Sonar locally:
-  
-  ```sh
-  mvn clean verify
-  mvn sonar:sonar -Dsonar.token=<token>
-  ```
+
+```sh
+mvn clean verify
+mvn sonar:sonar -Dsonar.token=<token>
+```
 
 Make sure your SonarQube server is running locally (default: http://localhost:9000).
 
@@ -130,32 +130,34 @@ The project uses JUnit 5 for testing. Tests are separated by layers:
 
 🔧 Run all tests:
 
-  ```sh
-  ./mvnw test
-  ```
+```sh
+./mvnw test
+```
 
 Or (Windows):
 
-  ```sh
-  mvn test
-  ```
+```sh
+mvn test
+```
 
 <br/>
-
 
 ## 👥 Available Roles and Credentials
 
 The system supports the following roles with corresponding credentials:
 
 - **Organizer**
+
   - Email: `organizer@gmail.com`
   - Password: `pera`
 
 - **Service and product provider**
+
   - Email: `provider@gmail.com`
   - Password: `pera`
 
 - **Administrator**
+
   - Email: `admin@gmail.com`
   - Password: `pera`
 
@@ -167,17 +169,13 @@ The system supports the following roles with corresponding credentials:
 
 [Java-img]: https://img.shields.io/badge/Java-17+-red?logo=java&logoColor=white
 [Java-url]: https://www.oracle.com/java/
-
 [SpringBoot-img]: https://img.shields.io/badge/Spring%20Boot-3.3.5-success?logo=springboot
 [SpringBoot-url]: https://spring.io/projects/spring-boot
-
 [Maven-img]: https://img.shields.io/badge/Maven-3-blue?logo=apachemaven&logoColor=white
 [Maven-url]: https://maven.apache.org/
-
 [PostgreSQL-img]: https://img.shields.io/badge/Database-PostgreSQL-336791?logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
-
-[contributors-shield]: https://img.shields.io/github/contributors/kzi-nastava/iss-project-event-planner-siit-2024-team-13.svg?style=for-the-badge
-[contributors-url]: https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/kzi-nastava/iss-project-event-planner-siit-2024-team-13.svg?style=for-the-badge
-[license-url]: https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/anasinik/eventorium-backend.svg?style=for-the-badge
+[contributors-url]: https://github.com/anasinik/eventorium-backend/graphs/contributors
+[license-shield]: https://img.shields.io/github/license/anasinik/eventorium-backend.svg?style=for-the-badge
+[license-url]: https://github.com/anasinik/eventorium-backend/blob/master/LICENSE.txt
