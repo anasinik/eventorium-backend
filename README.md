@@ -67,7 +67,7 @@ Follow the steps below to set up and run the project locally.
 1. 🔁 Clone the repository
 
    ```sh
-   git clone https://github.com/kzi-nastava/iss-project-event-planner-siit-2024-team-13.git
+   git clone https://github.com/anasinik/eventorium-backend.git
    cd eventorium-backend
    ```
 
